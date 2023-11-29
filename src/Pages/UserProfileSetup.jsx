@@ -382,7 +382,7 @@ export default function Agency() {
               </div>
             </div>
           </div>
-          {/* <div className="column--3">
+           <div className="column--3">
           <div className="particlecontainer">
               <div className="particles">
                 <Logo />
@@ -391,7 +391,7 @@ export default function Agency() {
                 <img width="650px" src="../assets/particlelogobg.png"></img>
               </div>
             </div>
-          </div> */}
+          </div> 
         </form>
       </div>
       <Footer />

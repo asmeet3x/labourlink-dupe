@@ -542,7 +542,7 @@ export default function Indivisual() {
               </div>
             </div>
           </div>
-          {/* <div className="column33">
+          <div className="column33">
             <div className="particlecontainer">
               <div className="particles">
                 <Logo />
@@ -551,7 +551,7 @@ export default function Indivisual() {
                 <img width="650px" src="../assets/particlelogobg.png"></img>
               </div>
             </div>
-          </div> */}
+          </div> 
         </form>
       </div>
       <div className="bottom"></div>
