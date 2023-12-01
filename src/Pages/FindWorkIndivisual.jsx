@@ -113,9 +113,8 @@ export default function Indivisual() {
       if (fileSize > maxSize) {
         setFileSizeError({
           ...fileSizeError,
-          [fieldName]: `File size should be less than ${
-            maxSize / (1024 * 1024)
-          } MB`,
+          [fieldName]: `File size should be less than ${maxSize / (1024 * 1024)
+            } MB`,
         });
       } else {
         setFileSizeError({
@@ -501,7 +500,7 @@ export default function Indivisual() {
                   type="file"
                   accept=".png, .jpeg, .jpg"
                   onChange={(e) => handleFileChange(e, "facephoto")}
-                  // value={labourPhoto}
+                // value={labourPhoto}
                 />
                 <p className="error-message">{fileSizeError.facephoto}</p>
               </div>
@@ -551,7 +550,7 @@ export default function Indivisual() {
                 <img width="650px" src="../assets/particlelogobg.png"></img>
               </div>
             </div>
-          </div> 
+          </div>
         </form>
       </div>
       <div className="bottom"></div>
